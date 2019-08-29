@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+    <div class="text-center">
+        <h1 class="display-4">Welcome</h1>
+        <a><img height="440" width="443" src="~/images/Timer.jpg" /></a>
+        @*<p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>*@
+        <h2>Report Login and Logout time.  </h2>
+        <p>
+            <a asp-action="LoginTime">Login</a>
+        </p>
+        <p>
+            <a asp-action="LogoutTime">Logout</a>
+        </p>
+        <p> NB. If you arrival later than 9:00 and leave earlier than 16:00 you must explain reason  </p>
+    </div>

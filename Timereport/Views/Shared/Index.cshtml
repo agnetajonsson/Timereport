@@ -1,0 +1,26 @@
+﻿@model IEnumerable<Timereport.Models.OneUser>
+
+@{
+    ViewData["Title"] = "Timereport";
+}
+
+<h1>Report arriving and leaving</h1>
+
+@*<p>
+    <a asp-action="Create">Report Time</a>
+</p>*@
+
+<hr />
+
+<div class="row-6">
+
+    <p>
+        <a asp-action="arriving">LoginTime</a>
+    </p>
+    <p>
+        <a asp-action="Leaving">LogoutTime</a>
+    </p>
+    <p> NB. If you arrival later than 9:00 and leave earlier than 16:00 you must explain reason  </p>
+</div>
+
+
